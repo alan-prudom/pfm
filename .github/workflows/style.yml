@@ -34,7 +34,7 @@ jobs:
     - name: Test code formatting with black of all py files
       run: |
         python -m black --check .
-        continue-on-error: true
+      continue-on-error: true
     - name: Test import order of all py files
       run: |
         python -m isort --check-only .
