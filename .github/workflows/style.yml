@@ -3,6 +3,7 @@ name: Test prose and style
 on:
   push:
   pull_request:
+  workflow_dispatch:
   # Run weakly at 00:00 on Sunday.
   schedule:
   - cron:  '0 0 * * 0'
